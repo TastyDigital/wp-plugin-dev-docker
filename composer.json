@@ -1,0 +1,37 @@
+{
+    "name": "tastydigital/wp-plugins-docker",
+    "description": "Wordpress plugin development container",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toby Trembath",
+            "email": "toby@tastydigital.com"
+        }
+    ],
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org"
+      }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "wpackagist-plugin/jwt-auth": "^2",
+        "wpackagist-plugin/wp-graphql": "^1.12"
+    },
+    "config": {
+      "optimize-autoloader": true,
+      "preferred-install": "dist",
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+      "installer-paths": {
+        "plugins/{$name}/": ["type:wordpress-plugin"]
+      }
+    }
+}
