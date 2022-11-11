@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6168de90ebd1edb2e3d404066be75ec2",
+    "content-hash": "18b9b7ba4c85da62cc56e54953b1fcd6",
     "packages": [
         {
             "name": "composer/installers",
@@ -150,6 +150,24 @@
                 }
             ],
             "time": "2022-08-20T06:45:11+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/cmb2",
+            "version": "2.10.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cmb2/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cmb2.zip?timestamp=1645540116"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cmb2/"
         },
         {
             "name": "wpackagist-plugin/jwt-auth",

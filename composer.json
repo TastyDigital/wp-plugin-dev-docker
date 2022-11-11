@@ -18,7 +18,8 @@
     "require": {
         "php": ">=7.4",
         "wpackagist-plugin/jwt-auth": "^2",
-        "wpackagist-plugin/wp-graphql": "^1.12"
+        "wpackagist-plugin/wp-graphql": "^1.12",
+        "wpackagist-plugin/cmb2": "^2.10"
     },
     "config": {
       "optimize-autoloader": true,
